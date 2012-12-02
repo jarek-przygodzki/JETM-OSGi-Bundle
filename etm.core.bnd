@@ -1,0 +1,13 @@
+-classpath: lib/jetm-1.2.3.1.jar
+-output: etm.core.jar
+Bundle-Name: JETM Core
+Bundle-SymbolicName: etm.core
+Bundle-Version: 1.2.3.1
+Bundle-ClassPath: .
+Built-By: jarek.przygodzki@gmail.com
+Private-Package: *
+Import-Package: sun.misc;resolution:=optional,\
+ org.apache.log4j;resolution:=optional,\
+ *
+Export-Package: !etm.core.util.collection*, \
+ *

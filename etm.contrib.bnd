@@ -1,0 +1,20 @@
+-classpath: lib/jetm-optional-1.2.3.1.jar
+-output: etm.contrib.jar
+Bundle-Name: JETM Optional
+Bundle-SymbolicName: etm.contrib
+Bundle-Version: 1.2.3.1
+Bundle-ClassPath: .
+Built-By: jarek.przygodzki@gmail.com
+Import-Package: etm.core*;version=1.2.3,\
+ org.rrd4j*;version=2.0.2;resolution:=optional,\
+ org.apache.log4j;resolution:=optional;version=1.2.9,\
+ org.jboss.aop*;version=1.5.2;resolution:=optional,\
+ org.codehaus.aspectwerkz*;version=2.0;resolution:=optional,\
+ org.aopalliance*;resolution:=optional,\
+ org.springframework*;version=2.0.2;resolution:=optional,\
+ org.apache.commons.logging*;resolution:=optional;version=1.0.4,\
+ javax.resource*;resolution:=optional;version=1.5,\
+ javax.servlet*;resolution:=optional,\
+ javax.transaction.xa*;resolution:=optional,\
+ *
+Export-Package: *
